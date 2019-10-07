@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CSS Test Page</title>
+    <link rel="stylesheet" href="data.css">
+
+    <style>
+
+    input: invalid {
+      border: 2px dashed red;
+    }
+    input: valid {
+      border: 2px solid black;
+    }
+
+    table {
+      border-collapse: collapse;
+      border: 2px solid rgb(200, 200, 200);
+      letter-spacing: 1px;
+      font-size: 0.8rem;
+    }
+
+    </style>
+
+  </head>
+  <body>
+
+      <h1 align= "center" >Online Market</h1>
+
+      <a href="Home.html">Home</a>
+      <a href="Contact.html">Contact</a>
+
+      <h2 align="center">New products Details</h2>
+
+  <table border = "2">
+      <tr>
+
+      <th rowspan = "4">Products</th>
+     </tr>
+      <th>Name</th>
+      <td>x1</td>
+      <td>x2</td>
+      <td>x3</td>
+      <td>x4</td>
+
+    <tr>
+     <th>Price</th>
+     <td>x1</td>
+     <td>x2</td>
+     <td>x3</td>
+     <td>x4</td>
+    </tr>
+
+    <tr>
+     <th>Quantity</th>
+     <td>x1</td>
+     <td>x2</td>
+     <td>x3</td>
+     <td>x4</td>
+    </tr>
+
+  </table>
+  <br>
+  <fieldset>
+  <form  action="#" method="post">
+
+  <p>
+     <label> Choose a date: <input type="date" name="date1" required></label><br>
+
+     <p>
+
+     <label> Choose number between 1 and 50 <input type="number" name="quantity" min="1" max = "50" required></label>
+
+
+
+  <fieldset>
+  <legend>What is your favorite subject?</legend>
+
+
+    <input type="radio" name="subject" value="Math" checked required> Math
+    <input type="radio" name="subject" value="Science" required> Science
+    <input type="radio" name="subject" value="Biology" required> Biology
+
+
+  </fieldset>
+
+  <p>
+  <select id="simple" name="simple">
+
+
+  <option selected>Study Level</option>
+  <option >Undergraduate</option>
+  <option >Postgraduate</option>
+   </select>
+
+
+  <br>
+
+  <p>
+
+  <button type="submit" name="button">Submit</button>
+  <button type="reset" name = "button">Reset</button>
+
+
+ </form>
+ </fieldset>
+
+  </body>
+
+
+</html>
